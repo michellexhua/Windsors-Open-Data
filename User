@@ -1,0 +1,11 @@
+public class User{
+	public String input;
+
+	public Input(string){
+		this.input = input;
+	}
+
+	public String getInput(){
+		return input;
+	}
+}
