@@ -1,11 +1,11 @@
+import java.until.Scanner;
+
 public class User{
 	public String input;
 
-	public Input(string){
-		this.input = input;
+	public void Input(string){
+		Scanner scan = new Scanner(System.in); //creates scanner object
+		System.out.println("Search..")
+		String input = scan.nextLine(); //reads users input
+		display();
 	}
-
-	public String getInput(){
-		return input;
-	}
-}
