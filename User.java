@@ -1,4 +1,4 @@
-import java.util.*;
+import java.io.*;
 import java.util.*;
 
 public class User{
@@ -16,7 +16,8 @@ public class User{
 	//display search engines result 
 	public static void main(String[] args){
 		Results r = new Results();
-		String result = r.Results();
+		String result = r.Result();
 
 		System.out.println(result);
 	}
+	
