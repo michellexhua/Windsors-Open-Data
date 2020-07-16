@@ -6,13 +6,14 @@ public class SearchEngine{
 	private String results; 
 	private ArrayList dataList = new ArrayList();
 
-	//
-	public void SearchEngine(string){
+	//obtains input
+	public void SearchEngine(){
 		Scanner scan = new Scanner(System.in); 
 		String input = scan.nextLine(); 
 		return input;
 	}
 
+	//search for one letter at a time 
 	public void incrementalSearch(String input){
 		ArrayList<String> result = new ArrayList<String>(); 
 		for (String s : urls){
@@ -22,8 +23,8 @@ public class SearchEngine{
 		}
 		return result;
 	}
-	//Goes through the list of datasets 
-	public searchData(){
+	//goes through the list of datasets 
+	public searchData(String result){
 		ArrayList<String> list = new ArrayList<String>();
 		//list of datasets
 		System.out.println("Results: ");
