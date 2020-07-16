@@ -1,11 +1,22 @@
-import java.until.Scanner;
+import java.util.*;
+import java.util.*;
 
 public class User{
-	public String input;
+	private String input;
+	private String result;
 
-	public void Input(string){
-		Scanner scan = new Scanner(System.in); //creates scanner object
+	//obtains users input
+	public Input(){
+		Scanner scan = new Scanner(System.in); 
 		System.out.println("Search..")
-		String input = scan.nextLine(); //reads users input
-		display();
+		String input = scan.nextLine(); 
+		return input;
+	}
+
+	//display search engines result 
+	public static void main(String[] args){
+		Results r = new Results();
+		String result = r.Results();
+
+		System.out.println(result);
 	}
