@@ -7,7 +7,7 @@ public class Sort{
 	{
 		Results result = new Results();
 		String str[] = result.getResults();
-		int i, j, n;
+		int i, j;
 
 		for (int i = 0; i < str.length ; i++)
 		{
